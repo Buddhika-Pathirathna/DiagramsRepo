@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T13:54:36.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="M5v-xE8UQ2QdqjWK-7Vs" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T14:06:12.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="e7asm5stUN9MWe6O1pMh" version="21.3.7" type="github">
   <diagram name="Page-1" id="bnbxSOhsL_3hIMBQt3eB">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="n5PCs_GCAfdrT5qaIRSB-3" value="Contact &lt;br&gt;already in the System?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Contact &lt;br&gt;already in the System?&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="190" y="25" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="n5PCs_GCAfdrT5qaIRSB-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Save the Contact in the System&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="240" y="200" width="100" height="100" as="geometry" />
+          <mxGeometry x="200" y="180" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="n5PCs_GCAfdrT5qaIRSB-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Assign a Counselor&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="360" y="35" width="100" height="100" as="geometry" />
@@ -17,16 +17,52 @@
           <mxGeometry x="520" y="35" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="n5PCs_GCAfdrT5qaIRSB-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Conducted the Appointment with Counselor&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="640" y="160" width="100" height="100" as="geometry" />
+          <mxGeometry x="680" y="35" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="n5PCs_GCAfdrT5qaIRSB-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Sign the Pre-need Contract&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="800" y="270" width="100" height="100" as="geometry" />
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Prepare &amp;amp; Sign the Pre-need Contract&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="950" y="135" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="n5PCs_GCAfdrT5qaIRSB-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Receive the First Call from Customer&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="30" y="30" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="n5PCs_GCAfdrT5qaIRSB-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Sign the Pre-need Contract&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="800" y="390" width="100" height="100" as="geometry" />
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Select Goods, Services, Wishes, etc&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="810" y="140" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Collect Customer Down Payment&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="130" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-14" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Prepare &amp;amp; Sign the Financial Contract with Payment Details&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="510" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Prepare &amp;amp; Sign the Insurance Contract&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="490" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Collect Customer Payment &amp;amp; Deposit Invoice&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Collect Customer Payment &amp;amp; Deposit Invoice&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Collect Customer Payment &amp;amp; Deposit Invoice&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="650" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Collect Customer Payment &amp;amp; Deposit Invoice&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="870" y="660" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Collect Customer Payment &amp;amp; Deposit Invoice&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="600" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-21" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Create &lt;br&gt;Financial Contract?&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="460" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Paper &lt;br&gt;Contract&lt;br&gt;above X&lt;br&gt;amount $&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="570" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Create&amp;nbsp;&lt;br&gt;Insurance Contract&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="580" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Contact &lt;br&gt;already in the System?&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="650" width="110" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

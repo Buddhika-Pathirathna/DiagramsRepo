@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T13:44:27.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.7" etag="4Wpo7y_egSuIKX9utjnT" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T13:54:36.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="M5v-xE8UQ2QdqjWK-7Vs" version="21.3.7" type="github">
   <diagram name="Page-1" id="bnbxSOhsL_3hIMBQt3eB">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-3" value="Contact &lt;br&gt;already in the System?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="25" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Save the Contact in the System&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Assign a Counselor&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="35" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Book the Initial Appoinmnet&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="35" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Conducted the Appointment with Counselor&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Sign the Pre-need Contract&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="270" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Receive the First Call from Customer&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5PCs_GCAfdrT5qaIRSB-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Sign the Pre-need Contract&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="390" width="100" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

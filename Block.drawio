@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T10:49:56.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MzkgQiFY8WiDTbmM6YNd" version="21.3.8" type="github">
-  <diagram name="Page-1" id="gDeCP4PXnjPSAOPUvVWp">
+<mxfile host="app.diagrams.net" modified="2023-06-13T11:36:51.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="119fOWw82dKjn9mn58PM" version="21.3.8" type="github" pages="2">
+  <diagram name="Block Stages" id="gDeCP4PXnjPSAOPUvVWp">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -15,6 +15,56 @@
         </mxCell>
         <mxCell id="bAn_F7KBVGSInIFGaHhv-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Validate the Block&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="240" y="290" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bAn_F7KBVGSInIFGaHhv-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Each node executes all the corresponding Transactions&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="420" y="180" width="110" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_BjIZdquXWI4dN0PPOaR" name="Node Execution">
+    <mxGraphModel dx="584" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-1" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Ethereum State Transition Function&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="13" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-2" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Recall that each time a new block is created, it is downloaded, processed, and&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;validated by node on the network. During processing, each node executes all the&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;transactions contained therein.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="70" width="630" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;EVM Preforms these Functions&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="160" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-4" value="Block Created" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="900" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Check Transaction Format&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="210" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-7" value="&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Does it have the right number of values?&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Is the signature valid?&amp;nbsp;&lt;/li&gt;&lt;li&gt;Does the nonce—a transaction counter—on the transaction match the nonce on the account?&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;If any of these are missing, return an error.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="200" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Calculate the Transaction fee&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="360" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-9" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;By multiplying the amount of work required (represented by STARTGAS.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Then deduct the fee from the user’s account balance, and increment the sender’s nonce (transaction counter).&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;If there’s not enough ether in the account, return an error.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="360" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Initialize the gas payment&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="530" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Transfer the value of the transaction&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="690" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Roll Back&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="850" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-13" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="880" y="660" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-14" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;By multiplying the amount of work required (represented by STARTGAS.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Then deduct the fee from the user’s account balance, and increment the sender’s nonce (transaction counter).&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;If there’s not enough ether in the account, return an error.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="530" width="400" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T11:36:51.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="119fOWw82dKjn9mn58PM" version="21.3.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-13T11:58:14.312Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="rd5dcY9FOD6oKL3lbBKn" version="21.3.8" type="github" pages="2">
   <diagram name="Block Stages" id="gDeCP4PXnjPSAOPUvVWp">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_BjIZdquXWI4dN0PPOaR" name="Node Execution">
-    <mxGraphModel dx="584" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="584" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,14 +57,29 @@
         <mxCell id="aREkf_e-A-PVJ48lY-RB-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Transfer the value of the transaction&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1050" y="690" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Roll Back&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="850" width="100" height="100" as="geometry" />
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Roll back the Transaction&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="920" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-13" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="880" y="660" width="100" height="100" as="geometry" />
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Receiving Account &lt;br&gt;Exists?&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="680" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-14" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;By multiplying the amount of work required (represented by STARTGAS.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Then deduct the fee from the user’s account balance, and increment the sender’s nonce (transaction counter).&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;If there’s not enough ether in the account, return an error.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="530" width="400" height="130" as="geometry" />
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-14" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Take off a certain amount of gas per byte processed in the transaction.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="530" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Create Receiving Account&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="800" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Send Transaction Amount to Receiving Account&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="670" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-18" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;If the &lt;br&gt;address is a Contract Address?&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="810" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Run the Contract Code&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="930" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;If the &lt;br&gt;address is a Contract Address?&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="900" y="930" width="110" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

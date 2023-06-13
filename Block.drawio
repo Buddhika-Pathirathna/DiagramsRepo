@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T11:58:14.312Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="rd5dcY9FOD6oKL3lbBKn" version="21.3.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-13T14:00:15.908Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="x_AZNeJ3-nSiuW8u2fWd" version="21.3.8" type="github" pages="2">
   <diagram name="Block Stages" id="gDeCP4PXnjPSAOPUvVWp">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,63 +23,150 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_BjIZdquXWI4dN0PPOaR" name="Node Execution">
-    <mxGraphModel dx="584" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="837" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-1" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Ethereum State Transition Function&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-1" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Ethereum State Transition Function&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="880" y="13" width="420" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-2" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Recall that each time a new block is created, it is downloaded, processed, and&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;validated by node on the network. During processing, each node executes all the&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;transactions contained therein.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-2" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Recall that each time a new block is created, it is downloaded, processed, and&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;validated by node on the network. During processing, each node executes all the&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;transactions contained therein.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="880" y="70" width="630" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;EVM Preforms these Functions&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;EVM Preforms these Functions&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="880" y="160" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-4" value="Block Created" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="900" y="220" width="100" height="60" as="geometry" />
+        <mxCell id="K5B236h4ecBoK-qMOQUh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aREkf_e-A-PVJ48lY-RB-4" target="aREkf_e-A-PVJ48lY-RB-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Check Transaction Format&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-4" value="Block Created" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="890" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aREkf_e-A-PVJ48lY-RB-5" target="aREkf_e-A-PVJ48lY-RB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="aREkf_e-A-PVJ48lY-RB-5" target="aREkf_e-A-PVJ48lY-RB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Check Transaction Format&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1050" y="210" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-7" value="&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Does it have the right number of values?&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Is the signature valid?&amp;nbsp;&lt;/li&gt;&lt;li&gt;Does the nonce—a transaction counter—on the transaction match the nonce on the account?&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;If any of these are missing, return an error.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="200" width="340" height="120" as="geometry" />
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-7" value="&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Does it have the right number of values?&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Is the signature valid?&amp;nbsp;&lt;/li&gt;&lt;li&gt;Does the nonce—a transaction counter—on the transaction match the nonce on the account?&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;If any of these are missing, return an error.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="200" width="400" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Calculate the Transaction fee&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="K5B236h4ecBoK-qMOQUh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aREkf_e-A-PVJ48lY-RB-8" target="aREkf_e-A-PVJ48lY-RB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="aREkf_e-A-PVJ48lY-RB-8" target="aREkf_e-A-PVJ48lY-RB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Calculate the Transaction fee&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1050" y="360" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-9" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;By multiplying the amount of work required (represented by STARTGAS.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Then deduct the fee from the user’s account balance, and increment the sender’s nonce (transaction counter).&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;If there’s not enough ether in the account, return an error.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="360" width="400" height="130" as="geometry" />
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-9" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;By multiplying the amount of work required (represented by STARTGAS.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Then deduct the fee from the user’s account balance, and increment the sender’s nonce (transaction counter).&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;If there’s not enough ether in the account, return an error.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="345" width="400" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Initialize the gas payment&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="K5B236h4ecBoK-qMOQUh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aREkf_e-A-PVJ48lY-RB-10" target="aREkf_e-A-PVJ48lY-RB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="aREkf_e-A-PVJ48lY-RB-10" target="aREkf_e-A-PVJ48lY-RB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Initialize the gas payment&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1050" y="530" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Transfer the value of the transaction&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="K5B236h4ecBoK-qMOQUh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aREkf_e-A-PVJ48lY-RB-11" target="aREkf_e-A-PVJ48lY-RB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Transfer the value of the transaction&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1050" y="690" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Roll back the Transaction&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="920" width="100" height="100" as="geometry" />
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Roll back the Transaction&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="1155" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Receiving Account &lt;br&gt;Exists?&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="680" width="110" height="110" as="geometry" />
+        <mxCell id="K5B236h4ecBoK-qMOQUh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aREkf_e-A-PVJ48lY-RB-13" target="aREkf_e-A-PVJ48lY-RB-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-14" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Take off a certain amount of gas per byte processed in the transaction.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="530" width="400" height="100" as="geometry" />
+        <mxCell id="K5B236h4ecBoK-qMOQUh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aREkf_e-A-PVJ48lY-RB-13" target="K5B236h4ecBoK-qMOQUh-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="795" />
+              <mxPoint x="1180" y="898" />
+              <mxPoint x="1140" y="898" />
+              <mxPoint x="1140" y="1050" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Create Receiving Account&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="800" width="100" height="100" as="geometry" />
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Receiving Account &lt;br&gt;Exists?&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="685" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Send Transaction Amount to Receiving Account&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="670" width="100" height="100" as="geometry" />
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-14" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Take off a certain amount of gas per byte processed in the transaction.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="530" width="400" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-18" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;If the &lt;br&gt;address is a Contract Address?&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="810" width="110" height="110" as="geometry" />
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Create Receiving Account&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="690" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Run the Contract Code&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="930" width="100" height="100" as="geometry" />
+        <mxCell id="K5B236h4ecBoK-qMOQUh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aREkf_e-A-PVJ48lY-RB-18" target="aREkf_e-A-PVJ48lY-RB-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aREkf_e-A-PVJ48lY-RB-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;If the &lt;br&gt;address is a Contract Address?&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="900" y="930" width="110" height="110" as="geometry" />
+        <mxCell id="K5B236h4ecBoK-qMOQUh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aREkf_e-A-PVJ48lY-RB-18" target="K5B236h4ecBoK-qMOQUh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-18" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;If the &lt;br&gt;address is a Contract Address?&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="840" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Run the Contract Code&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="845" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aREkf_e-A-PVJ48lY-RB-20" target="aREkf_e-A-PVJ48lY-RB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aREkf_e-A-PVJ48lY-RB-20" target="K5B236h4ecBoK-qMOQUh-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="1205" />
+              <mxPoint x="1130" y="1500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aREkf_e-A-PVJ48lY-RB-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Not enough Ether / Gas run out&amp;nbsp;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="1150" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K5B236h4ecBoK-qMOQUh-9" target="aREkf_e-A-PVJ48lY-RB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K5B236h4ecBoK-qMOQUh-9" target="K5B236h4ecBoK-qMOQUh-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="1050" />
+              <mxPoint x="1540" y="1280" />
+              <mxPoint x="1255" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Send Transaction Amount to Receiving Account&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="1000" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K5B236h4ecBoK-qMOQUh-10" target="K5B236h4ecBoK-qMOQUh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K5B236h4ecBoK-qMOQUh-10" target="K5B236h4ecBoK-qMOQUh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-10" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Transaction throws any error&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1310" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="K5B236h4ecBoK-qMOQUh-11" target="K5B236h4ecBoK-qMOQUh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-11" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Refund the Gas tot he Sender&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1315" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Send any fees associated with Gas to Monor&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="1315" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="K5B236h4ecBoK-qMOQUh-19" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Complete the Transaction&lt;/span&gt;&#xa;&#xa;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="1470" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

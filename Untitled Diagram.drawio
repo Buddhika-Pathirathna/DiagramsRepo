@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T09:11:49.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="deDpkR7Xu1iVwalSavrb" version="21.5.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-06-27T11:23:45.474Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DeA4beiZQWfabZ2mj6sa" version="21.5.0" type="github" pages="11">
   <diagram id="OOECQn2_6MtxWo_nQoJt" name="As-IS-Flow">
     <mxGraphModel dx="2284" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -933,7 +933,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PHbp420QgSvlYAiEmW97" name="DFD-0-CombinedSystem">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -944,19 +944,117 @@
           <mxGeometry x="590" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5vpgBMBhFbfJERE7WR9K-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Record Keeper&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5vpgBMBhFbfJERE7WR9K-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Houston Support Center (HSC)&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nb7r-bwjlwriTLodJduq-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Human Resource&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nb7r-bwjlwriTLodJduq-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Funeral Home&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nb7r-bwjlwriTLodJduq-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Cemetery&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Customer&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Insurance&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Banks&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Funeral Director/Counselor&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="110" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Trust&lt;br&gt;Institutions&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-10" value="Request funeral Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="340" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-11" value="Process Payments" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="490" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-12" value="Handle data and payment processing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="28" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-13" value="Manage record keeping" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="585" y="258" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-16" value="Manage CS human &amp;amp; other resources" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="438" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-18" value="Manage insurance for contract" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="648" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-19" value="Manage trust for Contract" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="728" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-20" value="Handle payment activities" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="688" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-21" value="Handle cemetery activities" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="168" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nb7r-bwjlwriTLodJduq-22" value="Manage pre-need details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="138" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="D3TbP7IfQq8hwC5PlCS8" name="Context Diagram - V1">
+    <mxGraphModel dx="2284" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zkr1N0CDSC0k1cBkMW3Q-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Customer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zkr1N0CDSC0k1cBkMW3Q-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Insurance&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FcrG-fAVZX_j8yBl_w1h-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Trust&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FcrG-fAVZX_j8yBl_w1h-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;3rd party Sub Contractors&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FcrG-fAVZX_j8yBl_w1h-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Bank / Payment Provider&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hwFnXSBcAfM0b9gs7cm6-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;3rd Party Sub Contractors&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6wfKImbG_sv2m3MTJAs3-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Payroll Platform (Dayforce)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6wfKImbG_sv2m3MTJAs3-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;HR Platform&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6wfKImbG_sv2m3MTJAs3-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Manual + Digital Modules&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="230" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6wfKImbG_sv2m3MTJAs3-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Dynamics&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6wfKImbG_sv2m3MTJAs3-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Hyperion&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="530" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6wfKImbG_sv2m3MTJAs3-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CFSS&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="80" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6wfKImbG_sv2m3MTJAs3-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;HFC&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="340" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6wfKImbG_sv2m3MTJAs3-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;AMS (Agreement Mgt System)&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W6fwSPkYDvjIrXjan5Ff-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Record Keepers&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="20" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -971,6 +1069,14 @@
   </diagram>
   <diagram id="YeCRWHivOBcpL2EMrgeV" name="DFD-2">
     <mxGraphModel dx="1119" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hYmWustZNT21T71vecHs" name="HSC">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
